@@ -2,6 +2,8 @@ import { db } from "@/lib/db";
 import Link from "next/link";
 import ResendVerificationButton from "./ResendButton";
 
+export const dynamic = "force-dynamic";
+
 /**
  * Email Verification Page (Server Component)
  *
