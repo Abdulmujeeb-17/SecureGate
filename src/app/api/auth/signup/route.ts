@@ -22,7 +22,7 @@ export async function POST(request: Request) {
 
     if (!validatedFields.success) {
       return NextResponse.json(
-        { error: validatedFields.error.errors[0].message },
+        { error: validatedFields.error.issues[0].message },
         { status: 400 }
       );
     }
@@ -47,7 +47,7 @@ export async function POST(request: Request) {
     const hashedPassword = await bcrypt.hash(password, 12);
 
     // Create user in database
-    const user = await db.user.create({
+    await db.user.create({
       data: {
         name,
         email,

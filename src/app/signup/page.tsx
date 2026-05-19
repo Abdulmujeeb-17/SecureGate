@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
 import PasswordStrengthIndicator from "@/components/PasswordStrengthIndicator";
 
@@ -17,7 +16,6 @@ import PasswordStrengthIndicator from "@/components/PasswordStrengthIndicator";
  * - Success message with instruction to check email
  */
 export default function SignUpPage() {
-  const router = useRouter();
   const [formData, setFormData] = useState({
     name: "",
     email: "",

@@ -9,7 +9,7 @@ import { NextResponse } from "next/server";
  * will fail and they'll be redirected to /login automatically.
  */
 export default withAuth(
-  function middleware(req) {
+  function middleware() {
     return NextResponse.next();
   },
   {

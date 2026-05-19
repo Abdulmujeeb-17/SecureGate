@@ -35,7 +35,7 @@ export async function POST(request: Request) {
     const validatedFields = forgotPasswordSchema.safeParse(body);
     if (!validatedFields.success) {
       return NextResponse.json(
-        { error: validatedFields.error.errors[0].message },
+        { error: validatedFields.error.issues[0].message },
         { status: 400 }
       );
     }
