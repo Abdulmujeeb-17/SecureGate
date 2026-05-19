@@ -2,7 +2,7 @@
 
 **Name:** Abdul Mujeeb
 **Cohort:** Design to MVP Bootcamp
-**Live URL:** [Pending Deployment]
+**Live URL:** https://secure-gate-nu.vercel.app/login
 **GitHub Repo:** https://github.com/Abdulmujeeb-17/SecureGate.git
 
 ---
