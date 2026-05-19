@@ -5,6 +5,8 @@ import { signUpSchema } from "@/lib/validations";
 import { generateVerificationToken } from "@/lib/tokens";
 import { sendVerificationEmail } from "@/lib/mail";
 
+export const dynamic = "force-dynamic";
+
 /**
  * POST /api/auth/signup
  * Register a new user with email + password.

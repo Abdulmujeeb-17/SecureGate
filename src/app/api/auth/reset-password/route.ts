@@ -3,6 +3,8 @@ import bcrypt from "bcryptjs";
 import { db } from "@/lib/db";
 import { resetPasswordSchema } from "@/lib/validations";
 
+export const dynamic = "force-dynamic";
+
 /**
  * POST /api/auth/reset-password
  * Reset a user's password using a valid, unexpired token.

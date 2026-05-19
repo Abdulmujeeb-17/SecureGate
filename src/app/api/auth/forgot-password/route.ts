@@ -6,6 +6,8 @@ import { sendPasswordResetEmail } from "@/lib/mail";
 import { rateLimit, FORGOT_PASSWORD_RATE_LIMIT } from "@/lib/rate-limit";
 import { headers } from "next/headers";
 
+export const dynamic = "force-dynamic";
+
 /**
  * POST /api/auth/forgot-password
  * Request a password reset email.
