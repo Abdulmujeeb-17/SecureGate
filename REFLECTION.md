@@ -1,6 +1,6 @@
 # SecureGate — Reflection & Engineering Analysis
 
-**Name:** Mujib
+**Name:** Abdul Mujeeb
 **Cohort:** Design to MVP Bootcamp
 **Live URL:** [Pending Deployment]
 **GitHub Repo:** https://github.com/Abdulmujeeb-17/SecureGate.git
